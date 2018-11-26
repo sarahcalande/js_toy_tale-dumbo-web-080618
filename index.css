@@ -3,39 +3,69 @@ body {
   font-family: monospace;
 }
 
-#toy-header {
+#recipe-header {
   display: flex;
   justify-content: center;
-  background: #515DA2;
+  background: rgb(255,188,217);
   opacity: .8;
   height: 7rem;
-  padding: 1rem;
 }
 
-#toy-header img {
+#recipe-header img {
+  align: right;
   height: 6rem;
-  width: auto;
-}
-
-#toy-collection {
-  margin: 2rem;
+  width: 6rem;
+  padding: 1rem;
 }
 
 .card {
+
+  image-orientation: center;
   text-align: center;
+  overflow: scroll;
   border: grey solid 1px;
+  display: inline-grid;
   padding: 1rem;
   width: 15rem;
   height: 25rem;
-  display: inline-grid;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52
+
+  box-shadow: 3px 4px rgb(255,188,217)
+
+
 }
 
-.toy-avatar {
-  justify-self: center;
-  height: 12rem;
-  width: auto;
+
+h2{
+  image-orientation: center;
+  text-align: center;
+  width: 15rem;
+}
+
+p{
+  text-align: center;
+  width: 15rem;
+}
+
+div{
+  padding: 1rem;
+}
+
+.recipe-collection{
+  image-orientation: center;
+  text-align: center;
+  overflow: hidden;
+  border: grey solid 1px;
+  display: inline-grid;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+}
+
+.recipe-avatar {
+  image-orientation: center;
+  text-align: center;
+  width: 15rem;
+  height: auto;
 }
 
 button {
@@ -61,11 +91,11 @@ button:hover {
   width: stretch;
   height: auto;
   display: none;
-  background: #515DA2;
+  background: rgb(255,188,217);
   opacity: .8;
 }
 
-.add-toy-form {
+.add-recipe-form {
   width: 80%
 }
 
