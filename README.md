@@ -83,3 +83,4 @@ body:
   "likes": <new number>
 }
 ```
+# cuteVanillaJSApp
